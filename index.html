@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Guardians of Tech — Membership-based technology protection for modern businesses. Structured, proactive protection through the Guardian Protection Circle™." />
+  <meta name="keywords" content="managed IT services, technology protection, cybersecurity, MSP, Guardian Protection Circle" />
+  <meta property="og:title" content="Guardians of Tech — Your Technology. Protected." />
+  <meta property="og:description" content="We don't fix your IT. We protect it. Structured, proactive technology protection through the Guardian Protection Circle™." />
+  <meta property="og:type" content="website" />
+  <title>Guardians of Tech — Your Technology. Protected.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="nav" id="main-nav" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <div class="nav-inner">
+        <a href="#" class="nav-logo" aria-label="Guardians of Tech — Home">
+          <div class="nav-logo-icon" aria-hidden="true">🛡</div>
+          <span class="nav-logo-text">Guardians <span>of Tech</span></span>
+        </a>
+
+        <ul class="nav-links" role="list">
+          <li><a href="#protection">Protection</a></li>
+          <li><a href="#ai-layer">AI Layer</a></li>
+          <li><a href="#tiers">Tiers</a></li>
+          <li><a href="#process">Process</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="nav-cta">
+          <a href="#contact" class="btn btn-outline">Schedule Assessment</a>
+          <a href="#tiers" class="btn btn-primary">Join the Circle</a>
+        </div>
+
+        <button class="nav-hamburger" id="hamburger" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-nav">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Nav -->
+  <div class="mobile-nav" id="mobile-nav" role="dialog" aria-modal="true" aria-label="Mobile navigation">
+    <div class="mobile-nav-backdrop" id="mobile-nav-backdrop"></div>
+    <nav class="mobile-nav-panel">
+      <a href="#protection">Protection</a>
+      <a href="#ai-layer">AI Layer</a>
+      <a href="#tiers">Tiers</a>
+      <a href="#process">Process</a>
+      <a href="#contact">Contact</a>
+      <a href="#contact" class="btn btn-outline">Schedule Assessment</a>
+      <a href="#tiers" class="btn btn-primary">Join the Circle</a>
+    </nav>
+  </div>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="hero-bg-grid"></div>
+      <div class="hero-bg-glow"></div>
+    </div>
+
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <div class="hero-badge-dot" aria-hidden="true"></div>
+          Guardian Protection Circle™ — Now Enrolling
+        </div>
+
+        <h1>
+          Your Technology.<br />
+          <span class="highlight">Protected.</span>
+        </h1>
+
+        <p class="hero-sub">
+          We don't fix your IT when it breaks. We make sure it never breaks in the first place.
+          Structured, proactive technology protection for businesses that can't afford downtime.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary btn-lg">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            Request Protection Assessment
+          </a>
+          <a href="#tiers" class="btn btn-outline btn-lg">View Protection Tiers</a>
+        </div>
+
+        <div class="hero-trust">
+          <div class="hero-trust-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            No long-term contracts
+          </div>
+          <div class="hero-trust-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            AI-backed monitoring 24/7
+          </div>
+          <div class="hero-trust-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            Onboarded in under 48 hours
+          </div>
+        </div>
+      </div>
+
+      <!-- Shield Visual -->
+      <div class="hero-shield" aria-hidden="true">
+        <div class="shield-visual">
+          <svg class="shield-svg" viewBox="0 0 400 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="shieldGrad" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#1e40af"/>
+                <stop offset="100%" stop-color="#1e3a8a"/>
+              </linearGradient>
+              <linearGradient id="shieldBorder" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.8"/>
+                <stop offset="100%" stop-color="#1e40af" stop-opacity="0.2"/>
+              </linearGradient>
+            </defs>
+            <!-- Shield shape -->
+            <path d="M200 20 L360 80 L360 240 C360 340 280 420 200 460 C120 420 40 340 40 240 L40 80 Z"
+                  fill="url(#shieldGrad)" stroke="url(#shieldBorder)" stroke-width="2"/>
+            <!-- Inner highlight -->
+            <path d="M200 50 L340 100 L340 240 C340 325 270 398 200 432 C130 398 60 325 60 240 L60 100 Z"
+                  fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+            <!-- Check mark -->
+            <path d="M130 240 L175 285 L280 180"
+                  stroke="white" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"
+                  stroke-opacity="0.9"/>
+            <!-- Accent lines -->
+            <line x1="160" y1="320" x2="240" y2="320" stroke="rgba(255,255,255,0.15)" stroke-width="1.5"/>
+            <line x1="175" y1="335" x2="225" y2="335" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STATS BAR ===== -->
+  <div class="stats-bar" aria-label="Key statistics">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="stat-number">
+            <span data-target="99.9" data-suffix="%" data-decimals="1">99.9%</span>
+          </div>
+          <div class="stat-label">Uptime Guarantee</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">
+            <span data-target="15" data-suffix="min">15min</span>
+          </div>
+          <div class="stat-label">Avg. Response Time</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">
+            <span data-target="24" data-suffix="/7">24/7</span>
+          </div>
+          <div class="stat-label">AI Monitoring</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">
+            <span data-target="100" data-suffix="%">100%</span>
+          </div>
+          <div class="stat-label">Client Satisfaction</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== THE GUARDIAN PROTECTION CIRCLE ===== -->
+  <section class="section" id="protection">
+    <div class="container">
+      <div class="circle-grid">
+        <!-- Visual -->
+        <div class="circle-visual reveal">
+          <div class="circle-diagram" aria-hidden="true">
+            <div class="circle-ring ring-outer"></div>
+            <div class="circle-ring ring-mid"></div>
+            <div class="circle-ring ring-inner"></div>
+            <div class="circle-core">
+              <div class="circle-core-inner">
+                <span>🛡</span>
+              </div>
+            </div>
+            <div class="circle-orbit-item orbit-1" title="Endpoint Security">🖥</div>
+            <div class="circle-orbit-item orbit-2" title="Network Protection">🔒</div>
+            <div class="circle-orbit-item orbit-3" title="AI Monitoring">🤖</div>
+            <div class="circle-orbit-item orbit-4" title="Data Backup">💾</div>
+            <div class="circle-orbit-item orbit-5" title="Identity Protection">🔑</div>
+            <div class="circle-orbit-item orbit-6" title="Compliance">📋</div>
+          </div>
+        </div>
+
+        <!-- Content -->
+        <div class="circle-content reveal">
+          <span class="eyebrow">Guardian Protection Circle™</span>
+          <h2>Protection-First Technology Management</h2>
+          <p>
+            You're not hiring a help desk. You're enrolling in a structured protection model
+            built around anticipating threats, eliminating vulnerabilities, and keeping your
+            operations running — before problems happen.
+          </p>
+          <p>
+            The <strong>Guardian Protection Circle™</strong> surrounds your business with
+            layered defenses, proactive monitoring, and a dedicated team that treats your
+            technology like a strategic asset — not a cost center.
+          </p>
+
+          <ul class="circle-principles">
+            <li>
+              <div class="principle-icon" aria-hidden="true">
+                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <span>Proactive protection over reactive repair</span>
+            </li>
+            <li>
+              <div class="principle-icon" aria-hidden="true">
+                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <span>Layered security across every endpoint and network</span>
+            </li>
+            <li>
+              <div class="principle-icon" aria-hidden="true">
+                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <span>AI-driven threat intelligence and auto-remediation</span>
+            </li>
+            <li>
+              <div class="principle-icon" aria-hidden="true">
+                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <span>Monthly Guardian Reports — transparency you can read</span>
+            </li>
+            <li>
+              <div class="principle-icon" aria-hidden="true">
+                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <span>Tribal identity — you're not a ticket number, you're Protected</span>
+            </li>
+          </ul>
+
+          <a href="#contact" class="btn btn-primary">Request Your Protection Assessment</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROTECTION FEATURES ===== -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="eyebrow">What's Covered</span>
+        <h2>Full-Spectrum Protection</h2>
+        <p>Every layer of your technology infrastructure, defended and monitored — continuously.</p>
+      </div>
+
+      <div class="features-grid stagger-parent">
+        <div class="feature-card stagger-child reveal">
+          <div class="feature-icon" aria-hidden="true">🖥</div>
+          <h3>Endpoint Defense</h3>
+          <p>Every device in your fleet monitored, patched, and protected in real time. No gaps, no blind spots.</p>
+        </div>
+        <div class="feature-card stagger-child reveal">
+          <div class="feature-icon" aria-hidden="true">🔒</div>
+          <h3>Network Security</h3>
+          <p>Firewall management, DNS filtering, intrusion detection — your perimeter locked down and watched.</p>
+        </div>
+        <div class="feature-card stagger-child reveal">
+          <div class="feature-icon" aria-hidden="true">☁️</div>
+          <h3>Cloud & Identity</h3>
+          <p>Microsoft 365, Google Workspace, and cloud apps secured. MFA enforced. Zero-trust access policies.</p>
+        </div>
+        <div class="feature-card stagger-child reveal">
+          <div class="feature-icon" aria-hidden="true">💾</div>
+          <h3>Backup & Recovery</h3>
+          <p>Immutable backups, tested restores, and a recovery plan so ransomware never has the last word.</p>
+        </div>
+        <div class="feature-card stagger-child reveal">
+          <div class="feature-icon" aria-hidden="true">🤖</div>
+          <h3>AI-Powered Monitoring</h3>
+          <p>Machine learning threat detection running 24/7. Anomalies caught and classified before they escalate.</p>
+        </div>
+        <div class="feature-card stagger-child reveal">
+          <div class="feature-icon" aria-hidden="true">📊</div>
+          <h3>Guardian Reports</h3>
+          <p>Monthly protection summaries — threats neutralized, systems hardened, time saved. Proof you're protected.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== AI PROTECTION LAYER ===== -->
+  <section class="section" id="ai-layer">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="eyebrow">AI Protection Layer</span>
+        <h2>Intelligent Defense. Automated Response.</h2>
+        <p>Our AI architecture works behind the scenes so you never have to — catching, classifying, and neutralizing threats before your team even knows they existed.</p>
+      </div>
+
+      <div class="ai-grid">
+        <!-- Feature List -->
+        <div class="ai-features">
+          <div class="ai-feature-item active reveal">
+            <div class="ai-feature-icon" aria-hidden="true">🔔</div>
+            <div class="ai-feature-text">
+              <h4>Alert Normalization</h4>
+              <p>Thousands of raw signals unified into clear, actionable intelligence. No noise, only signal.</p>
+            </div>
+          </div>
+          <div class="ai-feature-item reveal">
+            <div class="ai-feature-icon" aria-hidden="true">🎫</div>
+            <div class="ai-feature-text">
+              <h4>AI Ticket Triage</h4>
+              <p>Issues automatically classified, prioritized, and routed — critical problems surface instantly.</p>
+            </div>
+          </div>
+          <div class="ai-feature-item reveal">
+            <div class="ai-feature-icon" aria-hidden="true">🎙</div>
+            <div class="ai-feature-text">
+              <h4>Voice-Triggered Support</h4>
+              <p>Describe your issue in plain English. Our system routes, logs, and begins resolution automatically.</p>
+            </div>
+          </div>
+          <div class="ai-feature-item reveal">
+            <div class="ai-feature-icon" aria-hidden="true">⚡</div>
+            <div class="ai-feature-text">
+              <h4>Auto-Remediation</h4>
+              <p>Defined remediation playbooks execute automatically for known threat patterns — zero human delay.</p>
+            </div>
+          </div>
+          <div class="ai-feature-item reveal">
+            <div class="ai-feature-icon" aria-hidden="true">📚</div>
+            <div class="ai-feature-text">
+              <h4>Knowledge Base Automation</h4>
+              <p>Every resolved incident enriches the system. Your protection gets smarter with every event.</p>
+            </div>
+          </div>
+          <div class="ai-feature-item reveal">
+            <div class="ai-feature-icon" aria-hidden="true">📄</div>
+            <div class="ai-feature-text">
+              <h4>Auto-Generated Guardian Reports</h4>
+              <p>Comprehensive monthly reports assembled automatically — your protection story, told clearly.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Live Log Visual -->
+        <div class="ai-visual reveal">
+          <div class="ai-visual-header">
+            <span class="ai-visual-title">Guardian AI — Live Feed</span>
+            <div class="status-badge">
+              <div class="status-dot" aria-hidden="true"></div>
+              Active
+            </div>
+          </div>
+          <div class="ai-log" id="ai-log" aria-live="polite" aria-label="AI protection log feed">
+            <!-- Entries injected by script.js -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROTECTION TIERS ===== -->
+  <section class="section section-alt" id="tiers">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="eyebrow">Protection Tiers</span>
+        <h2>Choose Your Level of Protection</h2>
+        <p>Every tier includes full Circle membership, proactive monitoring, and the Guardian identity. Scale up as your business grows.</p>
+      </div>
+
+      <div class="pricing-grid">
+
+        <!-- Core -->
+        <div class="pricing-card reveal">
+          <div class="tier-icon" aria-hidden="true">🛡</div>
+          <h3>Core Guardian</h3>
+          <p class="pricing-tagline">Structured protection for growing businesses</p>
+          <div class="price-block">
+            <div class="price-amount"><sup>$</sup><span data-target="997" data-suffix="">997</span></div>
+            <div class="price-period">per month · <span>per location</span></div>
+          </div>
+          <div class="pricing-divider"></div>
+          <ul class="pricing-features">
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              24/7 endpoint monitoring
+            </li>
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              Managed firewall &amp; DNS filtering
+            </li>
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              Patch management (OS + apps)
+            </li>
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              Cloud backup + tested restores
+            </li>
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              AI ticket triage
+            </li>
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              Monthly Guardian Report
+            </li>
+            <li class="muted">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+              AI auto-remediation
+            </li>
+            <li class="muted">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+              vCISO advisory
+            </li>
+          </ul>
+          <a href="#contact" class="btn btn-outline" style="width:100%; justify-content:center;">Get Started</a>
+        </div>
+
+        <!-- Elite (Featured) -->
+        <div class="pricing-card featured reveal">
+          <div class="pricing-badge">Most Popular</div>
+          <div class="tier-icon gold" aria-hidden="true">⚔️</div>
+          <h3>Elite Guardian</h3>
+          <p class="pricing-tagline">Advanced protection for serious operators</p>
+          <div class="price-block">
+            <div class="price-amount"><sup>$</sup><span data-target="1997" data-suffix="">1,997</span></div>
+            <div class="price-period">per month · <span>per location</span></div>
+          </div>
+          <div class="pricing-divider"></div>
+          <ul class="pricing-features">
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              Everything in Core
+            </li>
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              AI auto-remediation playbooks
+            </li>
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              Voice-triggered support
+            </li>
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              Advanced threat hunting
+            </li>
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              Security awareness training
+            </li>
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              Quarterly strategy review
+            </li>
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              Priority 1-hour response SLA
+            </li>
+            <li class="muted">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+              vCISO advisory
+            </li>
+          </ul>
+          <a href="#contact" class="btn btn-primary" style="width:100%; justify-content:center;">Join Elite Circle</a>
+        </div>
+
+        <!-- Enterprise -->
+        <div class="pricing-card reveal">
+          <div class="pricing-badge gold">Maximum Protection</div>
+          <div class="tier-icon platinum" aria-hidden="true">🏛</div>
+          <h3>Enterprise Guardian</h3>
+          <p class="pricing-tagline">Full authority protection for complex operations</p>
+          <div class="price-block">
+            <div class="price-amount">Custom</div>
+            <div class="price-period">Scoped per environment</div>
+          </div>
+          <div class="pricing-divider"></div>
+          <ul class="pricing-features">
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              Everything in Elite
+            </li>
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              Dedicated vCISO advisory
+            </li>
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              Compliance framework alignment
+            </li>
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              Custom AI playbook development
+            </li>
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              Incident response retainer
+            </li>
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              Executive threat briefings
+            </li>
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              30-minute emergency response SLA
+            </li>
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              "Guardian Protected" badge + certification
+            </li>
+          </ul>
+          <a href="#contact" class="btn btn-gold" style="width:100%; justify-content:center;">Contact for Pricing</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== THE GUARDIAN MANIFESTO ===== -->
+  <section class="section manifesto">
+    <div class="manifesto-bg" aria-hidden="true">
+      <div class="manifesto-bg-glow"></div>
+    </div>
+    <div class="container">
+      <div class="manifesto-content reveal">
+        <span class="eyebrow">The Guardian Manifesto</span>
+        <h2>We Don't Fix Technology. We Protect It.</h2>
+
+        <div class="manifesto-principles" role="list">
+          <div class="manifesto-line" role="listitem">
+            <span class="manifesto-num">01</span>
+            <span class="manifesto-text"><strong>We act before the fire starts.</strong> Our job is prevention, not firefighting. Every alert handled before you notice it is a win.</span>
+          </div>
+          <div class="manifesto-line" role="listitem">
+            <span class="manifesto-num">02</span>
+            <span class="manifesto-text"><strong>You are not a ticket number.</strong> You are a member of the Protected Circle — and we take that responsibility seriously.</span>
+          </div>
+          <div class="manifesto-line" role="listitem">
+            <span class="manifesto-num">03</span>
+            <span class="manifesto-text"><strong>Visibility is non-negotiable.</strong> You always know what's happening with your technology, in plain language, every month.</span>
+          </div>
+          <div class="manifesto-line" role="listitem">
+            <span class="manifesto-num">04</span>
+            <span class="manifesto-text"><strong>We deploy AI so you don't have to think about it.</strong> Our systems work overnight so your team can focus on the mission.</span>
+          </div>
+          <div class="manifesto-line" role="listitem">
+            <span class="manifesto-num">05</span>
+            <span class="manifesto-text"><strong>Guardian Protected is a standard, not a slogan.</strong> When your business earns that badge, it means something real.</span>
+          </div>
+          <div class="manifesto-line" role="listitem">
+            <span class="manifesto-num">06</span>
+            <span class="manifesto-text"><strong>We grow with you.</strong> As your operation scales, your protection scales — always ahead of the threat landscape.</span>
+          </div>
+        </div>
+
+        <a href="#contact" class="btn btn-primary btn-lg">Become Guardian Protected</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROCESS ===== -->
+  <section class="section section-alt" id="process">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="eyebrow">How It Works</span>
+        <h2>From Assessment to Protected in 48 Hours</h2>
+        <p>A structured onboarding process designed to expose every vulnerability and close every gap — fast.</p>
+      </div>
+
+      <div class="process-grid">
+        <div class="process-step reveal">
+          <div class="process-number" aria-hidden="true">1</div>
+          <h4>Protection Assessment</h4>
+          <p>We audit your current environment — endpoints, network, cloud, identity. Every risk exposed, scored, and prioritized.</p>
+        </div>
+        <div class="process-step reveal">
+          <div class="process-number" aria-hidden="true">2</div>
+          <h4>Circle Enrollment</h4>
+          <p>You're onboarded into the Guardian Protection Circle™. Monitoring agents deployed, stack configured, baseline established.</p>
+        </div>
+        <div class="process-step reveal">
+          <div class="process-number" aria-hidden="true">3</div>
+          <h4>Active Protection</h4>
+          <p>AI-backed monitoring goes live. Threats detected and neutralized. Your team operates without interruption.</p>
+        </div>
+        <div class="process-step reveal">
+          <div class="process-number" aria-hidden="true">4</div>
+          <h4>Monthly Reporting</h4>
+          <p>Your Guardian Report delivered every month. Clear proof of protection, documented value, continuous improvement.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SOCIAL PROOF ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="eyebrow">The Protected Circle</span>
+        <h2>What Our Members Say</h2>
+        <p>Businesses that made the shift from reactive IT to structured protection.</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card reveal">
+          <div class="testimonial-stars" aria-label="5 stars">★★★★★</div>
+          <p>"We had three security incidents in the year before joining. In 18 months with Guardians of Tech, we've had zero. The AI layer catches things we never would have seen coming."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" aria-hidden="true">MR</div>
+            <div>
+              <div class="author-name">Marcus R.</div>
+              <div class="author-title">CEO, Regional Law Firm</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal">
+          <div class="testimonial-stars" aria-label="5 stars">★★★★★</div>
+          <p>"The Guardian Report alone changed how I think about technology. I finally understand what's happening in my environment. And the response time when we do need help is unmatched."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" aria-hidden="true">SL</div>
+            <div>
+              <div class="author-name">Sandra L.</div>
+              <div class="author-title">Operations Director, Medical Practice</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal">
+          <div class="testimonial-stars" aria-label="5 stars">★★★★★</div>
+          <p>"They framed it perfectly from day one — this isn't IT support, it's protection. That mindset shift changed everything about how we budget for and think about technology."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" aria-hidden="true">DJ</div>
+            <div>
+              <div class="author-name">David J.</div>
+              <div class="author-title">Founder, Financial Advisory Group</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA ===== -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-card reveal">
+        <h2>Ready to Be Guardian Protected?</h2>
+        <p>Start with a free Protection Assessment. We'll map every vulnerability in your current environment and show you exactly what it would take to close them.</p>
+        <div class="cta-actions">
+          <a href="#contact" class="btn btn-gold btn-lg">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            Request Free Assessment
+          </a>
+          <a href="#tiers" class="btn btn-outline btn-lg" style="border-color: rgba(255,255,255,0.2); color: rgba(255,255,255,0.8);">View Protection Tiers</a>
+        </div>
+        <p class="cta-note">No commitment required. Assessment typically takes 45 minutes.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <span class="eyebrow" style="display:inline-block; font-size:0.75rem; font-weight:600; letter-spacing:0.15em; text-transform:uppercase; color:var(--color-accent); margin-bottom:1rem;">Get in Touch</span>
+          <h2>Start Your Protection Assessment</h2>
+          <p>
+            A 45-minute conversation to map your current vulnerabilities, understand your risk tolerance,
+            and determine which tier of the Guardian Protection Circle™ fits your operation.
+          </p>
+          <p>No pressure. No sales pitch. Just an honest look at where you stand.</p>
+
+          <div class="contact-details">
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon" aria-hidden="true">📍</div>
+              <div>
+                <div class="contact-detail-label">Serving</div>
+                <div class="contact-detail-value">Businesses Nationwide</div>
+              </div>
+            </div>
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon" aria-hidden="true">⏱</div>
+              <div>
+                <div class="contact-detail-label">Response Time</div>
+                <div class="contact-detail-value">Within 24 Business Hours</div>
+              </div>
+            </div>
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon" aria-hidden="true">🛡</div>
+              <div>
+                <div class="contact-detail-label">Assessment</div>
+                <div class="contact-detail-value">Complimentary — No Obligation</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form reveal">
+          <form id="contact-form" novalidate aria-label="Protection assessment request form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="first-name">First Name <span aria-hidden="true">*</span></label>
+                <input type="text" id="first-name" name="first_name" placeholder="John" required autocomplete="given-name" />
+              </div>
+              <div class="form-group">
+                <label for="last-name">Last Name <span aria-hidden="true">*</span></label>
+                <input type="text" id="last-name" name="last_name" placeholder="Smith" required autocomplete="family-name" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Business Email <span aria-hidden="true">*</span></label>
+              <input type="email" id="email" name="email" placeholder="john@yourbusiness.com" required autocomplete="email" />
+            </div>
+            <div class="form-group">
+              <label for="company">Company Name <span aria-hidden="true">*</span></label>
+              <input type="text" id="company" name="company" placeholder="Acme Corp" required autocomplete="organization" />
+            </div>
+            <div class="form-group">
+              <label for="size">Number of Employees</label>
+              <select id="size" name="size">
+                <option value="" disabled selected>Select range…</option>
+                <option value="1-10">1 – 10</option>
+                <option value="11-25">11 – 25</option>
+                <option value="26-50">26 – 50</option>
+                <option value="51-100">51 – 100</option>
+                <option value="100+">100+</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="tier-interest">Tier Interest</label>
+              <select id="tier-interest" name="tier_interest">
+                <option value="" disabled selected>Which tier interests you?</option>
+                <option value="core">Core Guardian — $997/mo</option>
+                <option value="elite">Elite Guardian — $1,997/mo</option>
+                <option value="enterprise">Enterprise Guardian — Custom</option>
+                <option value="unsure">Not sure yet — need assessment</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">What's your biggest technology concern right now?</label>
+              <textarea id="message" name="message" placeholder="Tell us what keeps you up at night regarding your technology…"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              Request My Free Assessment
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="footer-logo" aria-label="Guardians of Tech — Home">
+            <div class="footer-logo-icon" aria-hidden="true">🛡</div>
+            <span class="footer-logo-text">Guardians <span>of Tech</span></span>
+          </a>
+          <p>Membership-based technology protection built on proactive vigilance, AI-backed intelligence, and a tribal identity that makes "Guardian Protected" mean something.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Protection</h4>
+          <ul class="footer-links">
+            <li><a href="#protection">Guardian Circle™</a></li>
+            <li><a href="#ai-layer">AI Layer</a></li>
+            <li><a href="#tiers">Core Guardian</a></li>
+            <li><a href="#tiers">Elite Guardian</a></li>
+            <li><a href="#tiers">Enterprise</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul class="footer-links">
+            <li><a href="#protection">About Us</a></li>
+            <li><a href="#process">Our Process</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contact">Careers</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Resources</h4>
+          <ul class="footer-links">
+            <li><a href="#contact">Free Assessment</a></li>
+            <li><a href="#process">Onboarding Guide</a></li>
+            <li><a href="#ai-layer">Guardian Reports</a></li>
+            <li><a href="#contact">Partner Program</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Guardians of Tech. All rights reserved.</p>
+        <div class="footer-badges">
+          <div class="footer-badge">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            Guardian Protected
+          </div>
+          <div class="footer-badge">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+            SOC 2 Ready
+          </div>
+          <div class="footer-badge">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            24/7 Monitoring
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast" role="status" aria-live="polite">
+    <span class="toast-icon" aria-hidden="true">✅</span>
+    <span class="toast-msg"></span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
